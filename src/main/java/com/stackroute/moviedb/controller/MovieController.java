@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @RestController
-@RequestMapping(value = "api/v1")
+@RequestMapping(value = "api/v2")
 public class MovieController {
 
     private static final Logger logger = LoggerFactory.getLogger(MovieController.class);
